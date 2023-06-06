@@ -19,17 +19,16 @@
 }
 
 .header-content-home h3 {
-    font-size: 1.563rem;
-    font-weight: 500;
+    font-size: var(--font-size-big);
+    font-weight: bold;
 }
+
 
 .header-content-home p {
-    font-size: 1.25rem;
-    font-weight: 300;
+    font-size: var(--font-size-regular);
     margin-top: 30px;
-    line-height: 1.55em;
+    /* line-height: 1.55em; */
 }
-
 
 .main-content-container {
     background-color: var(--color-grey);
@@ -85,7 +84,8 @@
 }
 
 .card-text h3 {
-    font-size: 2.441rem;
+    font-size: var(--font-size-big);
+    font-weight: bold;
 }
 
 .item {
@@ -99,9 +99,9 @@
 }
 
 .cardtext-descricao {
-    font-size: 1.25rem;
-    font-weight: 300;
+    font-size: var(--font-size-regular);
     padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 .card-button {
@@ -109,16 +109,14 @@
     background-color: black;
     color: white;
     padding: 15px 15px 15px 15px;
-    border-radius: 10px;
-    font-size: 1rem;
-    font-weight: 400;
+    border-radius: 3px;
+    font-size: var(--font-size-small);
 }
 
-.card-button:hover{
-    background-color: #FFF;
+.card-button:hover {
     border: 1px solid black;
+    background-color: #FFF;
     color: black;
-
 }
 
 /* Media Queries */

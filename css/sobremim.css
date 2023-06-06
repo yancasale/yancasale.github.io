@@ -1,0 +1,45 @@
+@import url(../main.css);
+@import url(./config.css);
+@import url(./index.css);
+
+p {
+    font-size: var(--font-size-regular);
+    margin-top: 30px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.main-sobremim {
+    height: 100vh;
+}
+
+.section-sobremim {
+    display: flex;
+    width: 60%;
+    height: max-content;
+    margin: 100px auto;
+}
+
+.foto {
+    display: flex;
+    width: 30%;
+}
+
+.texto {
+    margin-left: 50px;
+    width: 70%;
+    text-align: left;
+    height: max-content;
+}
+
+.picture {
+    width: 90%;
+    height: 30%;
+    border-radius:50%;
+    background-image: url(../images/yanpic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

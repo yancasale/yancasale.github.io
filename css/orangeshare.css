@@ -1,7 +1,9 @@
 @import url(../main.css);
+@import url(./config.css);
+@import url(./index.css);
 
 main {
-    height: 5000px;
+    height: fit-content;
 }
 
 h3 {
@@ -13,6 +15,7 @@ p {
     font-weight: 300;
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 
 em {
@@ -21,12 +24,12 @@ em {
     margin-bottom: 10px;
 }
 
-.sticky-links a:hover {
+/* .sticky-links a:hover {
     color: var(--color-black) !important;
     background-color: #ffff00;
     border-radius: 10px;
     padding: 5px;
-}
+} */
 
 .project-stickytop {
     justify-content: center;
