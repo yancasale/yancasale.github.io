@@ -1,0 +1,218 @@
+@import url(./config.css);
+
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+a {
+    -webkit-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    transition: .2s all ease;
+}
+
+/* Header */
+
+header {
+    position: relative;
+}
+
+
+/* Menu Hamburger */
+
+#btn-mobile {
+    display: none;
+  }
+
+
+/* Navbar */
+
+.header-navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid rgba(233, 230, 230, 0.555);
+}
+
+.container-navbar {
+    display: flex;
+    width: 60%;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.navbar-item {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1em;
+    color: black;
+}
+
+.nav-link {
+    font-size: var(--font-size-);
+}
+
+.navbar-item i {
+    font-size: var(--font-size-regular);
+    margin-right: 4px;
+}
+
+.links a {
+    font-size: var(--font-size-regular);
+    margin-right: 15px;
+    color: #2C3131;
+}
+
+.links a:hover {
+    background-color: #ffff00;
+}
+
+.icones {
+    justify-content: right;
+}
+
+.icones ul {
+    margin-left: 20px;
+}
+
+#ajuda {
+    margin-left: 20px;
+}
+
+
+/* Sticky Top Navbar */
+
+.header-stickytop {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+
+}
+
+.redbg {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    height: 55px;
+    background-color: #f0eded; 
+}
+
+.header-stickytop a {
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+main {
+    padding-top: 60px;
+}
+
+
+.container-stickytop {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: 40px auto;
+}
+
+.sticky-top-item {
+    display: flex;
+    align-items: center;
+    width: 30%;
+
+}
+
+.sticky-titulo a {
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.sticky-titulo a:hover {
+    background-color: #ffff00;
+    border-radius: 5px;
+}
+
+.sticky-links a {
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 30px;
+    font-size: 1rem;
+}
+
+.sticky-links a:hover {
+    color: var(--color-black);
+}
+
+.sticky-links {
+    justify-content: right;
+    width: 80%;
+}
+
+.hamburger-menu {
+    justify-content: right;
+    width: 80%;
+}
+
+.sticky-links i {
+    margin-left: 3px;
+}
+
+.active {
+    color: black !important;
+}
+
+.btn-primary {
+    background-color: #185a9d;
+    border: 1px solid #185a9d;
+}
+
+.btn-primary:hover {
+    background-color: #43cea2;
+    border: 1px solid #43cea2;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(24, 90, 157, 1);
+    margin-top: 150px;
+}
+
+.bg-cinza {
+    background-color: #F7F9FD;
+}
+
+textarea:focus, input:focus{
+    outline: 5px solid #0080ff77;
+}
+
+
+
+
+
+
+

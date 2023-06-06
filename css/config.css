@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+/* Variaveis */
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-grey: #FAFAFA;
+  --font-family: 'Lato', sans-serif;
+  --font-size-big: 1.953rem;
+  --font-size-medium: 1.563rem;
+  --font-size-regular: 1.25rem;
+  --font-size-small: 1rem;
+  --font-size-super-small: 0.8rem;
+}
+
+/* Acessibilidade */
+
+body.largerFont h1,
+body.largerFont h2,
+body.largerFont h3,
+body.largerFont h4,
+body.largerFont span,
+body.largerFont p,
+body.largerFont a,
+body.largerFont strong {
+  font-size: var(--font-size-medium) !important;
+}
+
+body.bodyBold span,
+body.bodyBold p,
+body.bodyBold a,
+body.bodyBold h1,
+body.bodyBold h2,
+body.bodyBold h3 {
+  font-weight: 900 !important;
+}
+
+body.contraste {
+  background-color: var(--color-black) !important;
+}
+
+body.contraste .header.container-home,
+body.contraste .header-content-home,
+body.contraste .header-content-content,
+body.contraste .header-text-content,
+body.contraste .main-content-container,
+body.contraste .main-content-content,
+body.contraste .main-content-project-card,
+body.contraste footer {
+  background-color: var(--color-black) !important;
+}
+
+
+
+body.contraste h1,
+body.contraste h2,
+body.contraste h3,
+body.contraste h4,
+body.contraste span,
+body.contraste p,
+body.contraste a {
+  color: var(--color-white) !important;
+}
+
+
+
+
+body.contraste .main-content-project-card {
+  border: 1px solid var(--color-white);
+}
+
+body.contraste .card-button {
+  border: 1px solid var(--color-white);
+  color: var(--color-white);
+}
+
+body.contraste .card-button:hover {
+  border: 1px solid var(--color-white);
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+
+body.contraste .header-content-home {
+  border: 1px solid var(--color-white);
+}
+
+body.contraste .dropdown-item {
+  color: var(--color-black) !important;
+}
+
+body.contraste .card-text {
+  color: var(--color-black) !important;
+}
+
+body.contraste .header__menu--links a {
+  color: var(--color-white) !important;
+}
+
+.fade-in-image {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
