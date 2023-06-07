@@ -210,6 +210,61 @@ textarea:focus, input:focus{
     outline: 5px solid #0080ff77;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    background-color: #2C3131;
+}
+
+footer a {
+    color: #FFF;
+    font-weight: 100;
+    text-decoration: underline;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.footer-inner-container {
+    display: flex;
+    width: 50%;
+}
+
+
+.footer-titulo {
+    width: 30%;
+    color: #FFF;
+}
+
+.footer-titulo p {
+    font-size: var(--font-size-small);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-left: 100px;
+}
+
+.box-inner-inner {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+h5 {
+    color: #FFF;
+}
+
+
+@media screen and (max-width: 916px) {
+    .box-inner-inner {
+        margin-right: 30px;
+    }
+}
+
 
 
 

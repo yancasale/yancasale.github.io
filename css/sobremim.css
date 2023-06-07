@@ -11,14 +11,12 @@ h2 {
     font-weight: bold;
 }
 
-.main-sobremim {
-    height: 100vh;
-}
+
 
 .section-sobremim {
     display: flex;
     width: 60%;
-    height: max-content;
+    height: fit-content;
     margin: 100px auto;
 }
 
@@ -31,7 +29,7 @@ h2 {
     margin-left: 50px;
     width: 70%;
     text-align: left;
-    height: max-content;
+    height: fit-content;
 }
 
 .picture {
@@ -43,3 +41,38 @@ h2 {
     background-size: cover;
     background-position: center;
 }
+
+@media screen and (max-width: 1744px) {
+
+    .section-sobremim {
+       justify-content: flex-start;
+    }
+    
+    .foto {
+        display: none;
+    }
+    
+    .texto {
+        width: 100%;
+        margin: 0;
+    }
+    
+}
+
+@media screen and (max-width: 1458px) {
+
+    .section-sobremim {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 707px) {
+
+    .section-sobremim {
+        width: 90%;
+    }
+    
+}
+
+
+
