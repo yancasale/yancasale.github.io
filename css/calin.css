@@ -1,0 +1,20 @@
+@import url(../css/config.css);
+@import url(../css/main.css);
+@import url(../css/index.css);
+@import url(../css/orangeshare.css);
+
+
+.project-image-preview {
+    background-image: url(../images/Apresentação\ -\ Vários\ Mobile\ Calin.png);
+    background-position: center !important;
+    background-size: contain !important;
+}
+
+.project-navbar {
+    background-color: #15CADB;
+}
+
+.project-image-preview {
+    background-color: #15CADB;
+}
+

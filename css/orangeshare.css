@@ -6,16 +6,19 @@ main {
     height: fit-content;
 }
 
-h3 {
+h3, h2, h4, h1, h5 {
     font-size: var(--font-size-big);
+    font-weight: bold;
 }
 
 p {
     font-size: var(--font-size-regular);
-    font-weight: 300;
     margin-top: 20px;
     margin-bottom: 20px;
-    
+}
+
+.project-container p {
+    font-weight: 400 !important;
 }
 
 em {
@@ -46,6 +49,7 @@ em {
     background-image: url(../images/Apresentação\ -\ Vários\ Mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 73vh;
 }
 
